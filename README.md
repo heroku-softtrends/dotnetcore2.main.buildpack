@@ -5,6 +5,6 @@ This Buildpack can build and deploy any such application that does not have any 
 In order to see the buildpack in action, you can click on the button below which will deploy a sample ASP.Net MVC application to heroku and you can see the build and deployment logs as the application gets deployed for you. This application was developed using Visual Studio 2015. 
 <br><p>
 ##
-<a href="https://heroku.com/deploy?template=https://github.com/somashekarg/netcore-latest-sample/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/heroku-softtrends/heroku.sample.dotnetcore2/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
