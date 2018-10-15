@@ -1,5 +1,5 @@
-# Softtrends .NET Core 2.1 Buildpack for Heroku
-## (Sample Code with Heroku Button deploying ASP.Net Core 2.1)
+# .NET Core 2.1 Buildpack for Heroku
+## by Softtrends LLC
 
 This uses the .Net Core 2.1 Buildpack provided by Softtends and adds full support for Heroku<br>
 
@@ -30,6 +30,8 @@ You can deploy this ASP.Net MVC website on Heroku server by clicking below butto
 <a href="https://heroku.com/deploy?template=https://github.com/heroku-softtrends/dotnetcore2.main.sample/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
+
+To download the Sample Application source code [Click here](https://github.com/heroku-softtrends/dotnetcore2.main.sample/tree/master)
 
 ## This application consists of:
 
