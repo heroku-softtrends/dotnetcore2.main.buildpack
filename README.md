@@ -13,11 +13,11 @@ You need to make the following changes in your Program.cs to deploy on Heroku
 <br/>
 In **Program.cs**
 
-*   Add UseUrls method and pass args[0] as parameter to start your app. Because Heroku web dyno will start with dynamic port after sucessful deployment. We need to use the same port in code behind also then only your app will start and listen on that port else dotnet runtime will set default port 5000. Thereby we pass port number as parameter with url in Procfile
+*   Heroku web dyno may start the with a dynamic port after sucessful deployment everytime the dyno starts but dotnet core will set the default port to 5000. So, in order to use a common port that code behind can use, add UseUrls method and pass args[0] as parameter to start your app. Thereby we pass port number as parameter with url in Procfile
 <br/>
-public static void Main(string[] args
-{<br/>
-            {
+public static void Main(string[] args)
+<br/>
+        {
             BuildWebHost(args).Run();
         }
                 public static IWebHost BuildWebHost(string[] args) =>
