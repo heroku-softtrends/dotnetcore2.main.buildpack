@@ -1,7 +1,7 @@
-# Softtrends .NET Core 2.x Buildpack for Heroku
-## (Sample Code with Heroku Button deploying ASP.Net Core 2.x)
+# Softtrends .NET Core 2.1 Buildpack for Heroku
+## (Sample Code with Heroku Button deploying ASP.Net Core 2.1)
 
-This uses the .Net Core 2.x Buildpack provided by Softtends and adds full support for Heroku<br>
+This uses the .Net Core 2.1 Buildpack provided by Softtends and adds full support for Heroku<br>
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
