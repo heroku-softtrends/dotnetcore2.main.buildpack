@@ -7,8 +7,7 @@
   "keywords": ["aspnet core", "aspnet core mvc"],
   "buildpacks": [
     {
-      "url": "https://github.com/heroku-softtrends/dotnetcore2.postgres.buildpack.git"
-	  
+      "url": "https://github.com/heroku-softtrends/dotnetcore2.postgres.buildpack.git"	  
     }
   ]
 }
