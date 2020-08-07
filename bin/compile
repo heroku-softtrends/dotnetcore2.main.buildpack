@@ -21,7 +21,7 @@ NETCORE_VERSION="2.2.103"
 if [ $PROJECT_VERSION == "netcoreapp2.0" ]; then
 	NETCORE_VERSION="2.1.4"
 elif [ $PROJECT_VERSION == "netcoreapp2.1" ]; then
-	NETCORE_VERSION="2.1.403"
+	NETCORE_VERSION="2.1.808"
 fi
 echo "The install dotnet sdk version: ${NETCORE_VERSION}"
 
